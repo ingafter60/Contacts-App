@@ -11,23 +11,33 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## 1. Setting up our first Laravel project
+### 1. Setting up our first Laravel project
 
     > - composer  create-project laravel/laravel Lara6-ContacstApp "6.5.*"
     > - create repository: Contacts App
     > - git repo
     > - push to github
 
-## 2. Working with Database
+### 2. Working with Database
 
-## 3. Routing, Controllers & Views
+#### 2.1 Working with migration
 
-## 4. Rendering Dynamic Data
+    > - php artisan migrate:install
+    > - php artisan migrate
+    > - php artisan make:migration create_companies_table --create=companies // old way to make migration
+    > - php artisan make:migration create_companies_table // new way
+    > - modify the companies table by adding some new fields
+    > - php artisan migrate // how to undo migrate? -> php artisan migrate:rollback
 
-## 5. Working with Form
 
-## 6. Query Scopes
+### 3. Routing, Controllers & Views
 
-## 7. Authentication in Laravel 6.x
+### 4. Rendering Dynamic Data
 
-## 8. Tidying up our code [New]
+### 5. Working with Form
+
+### 6. Query Scopes
+
+### 7. Authentication in Laravel 6.x
+
+### 8. Tidying up our code [New]
